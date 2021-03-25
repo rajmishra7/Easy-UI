@@ -1,0 +1,36 @@
+@import url('/components/colors.css');
+
+.navbar-social{
+    margin: 1rem 0rem;
+    width: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 1rem 1rem 1rem;
+    border: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navbar-ecommerce{
+    margin: 1rem 0rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-items{
+    margin: auto;
+}
+
+.navbar-ecommerce .nav-items i{
+    padding-right: 10px;
+}

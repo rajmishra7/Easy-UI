@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+</head>
+
+<body>
+    <header class="header">
+        
+        <div class="logo">
+            <a href="#">
+                <h1>Easy <span>UI</span></h1>
+            </a>
+        </div>
+        <div class="guide">
+            <a href="./index.html">
+                <h3>Installation guide</h3>
+            </a>
+        </div>
+        <div class="version">
+            <h3>v 1.O</h3>
+        </div>
+        <div class="github">
+            <a href=""><h3><i class="fab fa-github"></i></h3></a>
+        </div>
+    </header>
+    <div class="container-body">
+        
+        <aside class="nav">
+            
+            <div class="component-nav">
+                <a href="#Alert">Alert</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Avatar">Avatar</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Badge">Badge</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Button">Button</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Card">Card</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Image">Image</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Input">Input</a>
+            </div>
+            <div class="component-nav">
+                <a href="#List">List</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Navigation">Navigation</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Grid">Grid</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Toast">Toast</a>
+            </div>
+            <div class="component-nav">
+                <a href="#Modal">Modal</a>
+            </div>
+        </aside>
+        <main class="main">
+            <!--Alert start-->
+            <div class="component-main" id="Alert">
+                <br><br><br><br>
+                <h1>Alert</h1>
+                <div class="alert alert-success">
+                    <i class="fas fa-check-circle"></i>
+                    <p>This is a success alert</p>
+                </div>
+                <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p>This is a warning alert</p>
+                </div>
+                <div class="alert alert-error">
+                    <i class="fas fa-times"></i>
+                    <p>This is an error alert</p>
+                </div>
+                <div class="alert alert-info">
+                    <i class="fas fa-info"></i>
+                    <p>This is an info alert</p>
+                </div>
+            </div>
+            <div class="code">
+                <pre>
+                    <code>
+                        &ltdiv class="alert alert-success"&gt
+                            &lti class="fas fa-check-circle"&gt&lt/i&gt
+                            &ltp&gtThis is a success alert&lt/p&gt
+                        &lt/div&gt
+                        &ltdiv class="alert alert-warning"&gt
+                            &lti class="fas fa-exclamation-circle"&gt&lt/i&gt
+                            &ltp&gtThis is a warning alert&lt/p&gt
+                        &lt/div&gt
+                        &ltdiv class="alert alert-error"&gt
+                            &lti class="fas fa-times">&lt/i&gt
+                            &ltp>This is an error alert&lt/p&gt
+                        &lt/div&gt
+                        &ltdiv class="alert alert-info"&gt
+                            &lti class="fas fa-info">&lt/i&gt
+                            &ltp&gtThis is an info alert&lt/p&gt
+                    </code>
+                </pre>
+            </div>
+            <!-- Alert end-->
+            <br>
+            <hr>
+            <br>
+            <!-- Avatar start -->
+            <div class="component-main" id="Avatar">
+                <br><br><br><br>
+                <h1>Avatar</h1>
+                <img class="avatar avatar-s" src="./assets/images/avatar/avatar1.jpg" alt="">
+                <img class="avatar avatar-m" src="./assets/images/avatar/avatar1.jpg" alt="">
+                <img class="avatar avatar-l" src="./assets/images/avatar/avatar1.jpg" alt="">
+                <img class="avatar avatar-xl" src="./assets/images/avatar/avatar1.jpg" alt="">
+            </div>
+            <div class="code">
+                <pre>
+                    <code>
+                        &ltimg class="avatar avatar-s" src="./assets/images/avatar/avatar1.jpg" alt=""&gt
+                        &ltimg class="avatar avatar-m" src="./assets/images/avatar/avatar1.jpg" alt=""&gt
+                        &ltimg class="avatar avatar-l" src="./assets/images/avatar/avatar1.jpg" alt=""&gt
+                        &ltimg class="avatar avatar-xl" src="./assets/images/avatar/avatar1.jpg" alt=""&gt
+                    </code>
+                </pre>
+            </div>
+            <!-- Avatar end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Badge start -->
+            <div class="component-main" id="Badge">
+                <br><br><br><br>
+                <h1>Badge</h1>
+                <br><br>
+                <h3>#badge on icon</h3>
+                <br><br>
+                <div class="badge-container">
+                   <i class="fas fa-cart-plus fa-3x"></i>
+                    <p><span class="badge">7</span></p>
+                </div>
+                <div class="badge-container">
+                    <i class="far fa-heart fa-3x"></i>
+                     <p><span class="badge">7</span></p>
+                 </div>
+                 <div class="badge-container">
+                    <i class="fas fa-envelope-open fa-3x"></i>
+                     <p><span class="badge">7</span></p>
+                 </div>
+                 <div class="badge-container">
+                    <i class="fas fa-bell fa-3x"></i>
+                     <p><span class="badge">7</span></p>
+                 </div>
+                 <br><br>
+                 <div class="code">
+                     <pre>
+                         <code>
+                            &ltdiv class="badge-container">
+                                &lti class="fas fa-cart-plus fa-3x">&lt/i>
+                                 &ltp>&ltspan class="badge">7&lt/span>&lt/p>
+                             &lt/div>
+                             &ltdiv class="badge-container">
+                                 &lti class="far fa-heart fa-3x">&lt/i>
+                                  &ltp>&ltspan class="badge">7&lt/span>&lt/p>
+                              &lt/div>
+                              &ltdiv class="badge-container">
+                                 &lti class="fas fa-envelope-open fa-3x">&lt/i>
+                                  &ltp>&ltspan class="badge">7&lt/span>&lt/p>
+                              &lt/div>
+                              &ltdiv class="badge-container">
+                                 &lti class="fas fa-bell fa-3x">&lt/i>
+                                  &ltp>&ltspan class="badge">7&lt/span>&lt/p>
+                              &lt/div>
+                         </code>
+                     </pre>
+                 </div>
+                 <br><br>
+                 <h3>#badge on avatar</h3>
+                 <br>
+                 <div class="badge-container">
+                    <img class="avatar avatar-l" src="./assets/images/avatar/avatar1.jpg" alt="">
+                    <p><span class="badge-avatar"></span></p>
+                 </div>
+                 <div class="code">
+                     <pre>
+                         <code>
+                           &ltdiv class="badge-container">
+                                &ltimg class="avatar avatar-l" src="./assets/images/avatar/avatar1.jpg" alt="">
+                                &ltp>&ltspan class="badge-avatar">&lt/span>&lt/p>
+                             &lt/div>&lt                         
+                        </code>
+                     </pre>
+                 </div>
+                 <br><br>
+                 <h3>#badge variants</h3>
+                 <div class="badge-container">
+                     <p><span class="badge badge-ecom badge-ecom-new">NEW</span></p>
+                 </div>
+                 <div class="badge-container">
+                    <p><span class="badge badge-ecom badge-ecom-out">OUT OF STOCK</span></p>
+                </div>
+                <div class="badge-container">
+                    <p><span class="badge badge-ecom badge-ecom-trend">TRENDING</span></p>
+                </div>
+                
+
+            </div>
+            <div class="code">
+                <pre>
+                    <code>
+                        &ltdiv class="badge-container">
+                            &ltp>&ltspan class="badge badge-ecom badge-ecom-new">NEW&lt/span>&lt/p>
+                        &lt/div>
+                        &ltdiv class="badge-container">
+                           &ltp>&ltspan class="badge badge-ecom badge-ecom-out">OUT OF STOCK&lt/span>&lt/p>
+                       &lt/div>
+                       &ltdiv class="badge-container">
+                           &ltp>&ltspan class="badge badge-ecom badge-ecom-trend">TRENDING&lt/span>&lt/p>
+                       &lt/div>
+                    </code>
+                </pre>
+            </div>
+            <!-- Badge end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Button start -->
+            <div class="component-main" id="Button">
+                <br><br><br><br>
+                <h1>Button</h1>
+                <h3>#primary</h3>
+                <button class="btn btn-primary">PRIMARY</button>
+                <br>
+                <div class="code">
+                    <pre>
+                        <code>
+                            &ltbutton class="btn btn-primary">PRIMARY&lt/button>
+                        </code>
+                    </pre>
+                </div>
+                <br>
+                <h3>#secondary</h3>
+                <button class="btn btn-secondary">SECONDARY</button>
+                <br>
+                <div class="code">
+                    <pre><code>
+                        &ltbutton class="btn btn-secondary">SECONDARY&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#variants</h3>
+                <button class="btn btn-success">SUCCESS</button>
+                <button class="btn btn-warning">WARNING</button>
+                <button class="btn btn-info">INFO</button>
+                <button class="btn btn-danger">DANGER</button>
+                <button class="btn btn-disabled" disabled>DISABLED</button>
+                <br>
+                <div class="code">
+                    <pre><code>
+                &ltbutton class="btn btn-success">SUCCESS&lt/button>
+                &ltbutton class="btn btn-warning">WARNING&lt/button>
+                &ltbutton class="btn btn-info">INFO&lt/button>
+                &ltbutton class="btn btn-danger">DANGER&lt/button>
+                &ltbutton class="btn btn-disabled" disabled>DISABLED&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#floating button ( primary )</h3>
+                <button class="btn-float btn-float-primary"><i class="fas fa-angle-up"></i></button>
+                <button class="btn-float btn-float-primary"><i class="fas fa-angle-down"></i></button>
+                <button class="btn-float btn-float-primary"><i class="fas fa-plus"></i></button>
+                <button class="btn-float btn-float-primary"><i class="fas fa-pencil-alt"></i></button>
+                <br>
+                <div class="code">
+                    <pre><code>
+                &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-angle-up">&lt/i>&lt/button>
+                &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-angle-down">&lt/i>&lt/button>
+                &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-plus">&lt/i>&lt/button>
+                &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-pencil-alt">&lt/i>&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#floating button ( secondary )</h3>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-angle-up"></i></button>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-angle-down"></i></button>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-plus"></i></button>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-pencil-alt"></i></button>
+                <br>
+                <div class="code">
+                    <pre><code>
+                &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-angle-up">&lt/i>&lt/button>
+                &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-angle-down">&lt/i>&lt/button>
+                &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-plus">&lt/i>&lt/button>
+                &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-pencil-alt">&lt/i>&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#icon button</h3>
+                <div class="button-container">
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-cart-plus"></i></button>
+                        <h3>Add to Cart</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-search"></i></button>
+                        <h3>Search</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="far fa-heart"></i></button>
+                        <h3>Wishlist</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                        <h3>Delete</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-bars"></i></button>
+                        <h3>Options</h3>
+                    </div>
+                </div>
+                <br>
+                <div class="code">
+                    <pre><code>
+                        <&ltiv class="button-container">
+                            &ltdiv>
+                                &ltbutton class="btn-icon">&lti class="fas fa-cart-plus">&lt/i>&lt/button>
+                                &lth3>Add to Cart&lt/h3>
+                            &lt/div>
+                            &ltdiv>
+                                &ltbutton class="btn-icon">&lti class="fas fa-search">&lt/i>&lt/button>
+                                &lth3>Search&lt/h3>
+                            &lt/div>
+                            &ltdiv>
+                                &ltbutton class="btn-icon">&lti class="far fa-heart">&lt/i>&lt/button>
+                                &lth3>Wishlist&lt/h3>
+                            &lt/div>
+                            &ltdiv>
+                                &ltbutton class="btn-icon">&lti class="fas fa-trash">&lt/i>&lt/button>
+                                &lth3>Delete&lt/h3>
+                            &lt/div>
+                            &ltdiv>
+                                &ltbutton class="btn-icon">&lti class="fas fa-bars">&lt/i>&lt/button>
+                                &lth3>Options&lt/h3>
+                            &lt/div>
+                        &lt/div>&lt                    </code></pre>
+                </div>
+                <br>
+                <h3>#link button</h3>
+                <div class="button-container">
+                    <div><button class="btn-link"><a href="">HOME</a></button></div>
+                    <div><button class="btn-link"><a href="">ABOUT</a></button></div>
+                    <div><button class="btn-link"><a href="">CONTACT</a></button></div>
+                    <div><button class="btn-link"><a href="">LINK#1</a></button></div>
+                    <div><button class="btn-link"><a href="">LINK#2</a></button></div>
+                </div>
+            </div>
+            <div class="code">
+                <pre>
+                    <code>
+                        &ltdiv class="button-container">
+                            &ltdiv>&ltbutton class="btn-link">&lta href="">HOME&lt/a>&lt/button>&lt/div>
+                            &ltdiv>&ltbutton class="btn-link">&lta href="">ABOUT&lt/a>&lt/button>&lt/div>
+                            &ltdiv>&ltbutton class="btn-link">&lta href="">CONTACT&lt/a>&lt/button>&lt/div>
+                            &ltdiv>&ltbutton class="btn-link">&lta href="">LINK#1&lt/a>&lt/button>&lt/div>
+                            &ltdiv>&ltbutton class="btn-link">&lta href="">LINK#2&lt/a>&lt/button>&lt/div>
+                        &lt/div>&lt                    </code>
+                </pre>
+            </div>
+
+
+            <!-- Button end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Card start -->
+
+            <div class="component-main" id="Card">
+                <br><br><br><br>
+                <h1>Card</h1>
+                <h3>#text only card</h3>
+                <div class="card card-txt">
+                    <h3 >Text only card</h3>
+                    <h5><i class="far fa-clock"></i> 2 days ago</h5>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi corrupti optio culpa.</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-txt">
+                            &lth3 >Text only card&lt/h3>
+                            &lth5>&lti class="far fa-clock">&lt/i> 2 days ago&lt/h5>
+                            &ltp class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi corrupti optio culpa.&lt/p>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#vertical card</h3>
+                <div class="card card-vertical">
+                    <img src="./assets/images/card/item2.jpg" alt="" width="196">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo impedit repellat vitae, veritatis dolorum eius rerum sapiente tempora.</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-vertical">
+                            &ltimg src="./assets/images/card/item2.jpg" alt="" width="196">
+                            &ltp class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo impedit repellat vitae, veritatis dolorum eius rerum sapiente tempora.&lt/p>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#horizontal card</h3>
+                <div class="card card-horizontal">
+                    <img src="./assets/images/card/item2.jpg" alt="" width="300">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-horizontal">
+                            &ltimg src="./assets/images/card/item2.jpg" alt="" width="300">
+                            &ltp class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo&lt/p>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with shadow</h3>
+                <div class="card card-txt shadow">
+                    <h3 >Card with Shadow</h3>
+                    <h5><i class="far fa-clock"></i> 2 days ago</h5>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi corrupti optio culpa.</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-txt shadow">
+                            &lth3 >Card with Shadow&lt/h3>
+                            &lth5>&lti class="far fa-clock">&lt/i> 2 days ago&lt/h5>
+                            &ltp class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi corrupti optio culpa.&lt/p>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with dismiss</h3>
+                <div class="card card-horizontal">
+                    <img src="./assets/images/card/item2.jpg" alt="" width="300">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo</p>
+                    <span class="card-dismiss"><i class="fas fa-times"></i></span>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-horizontal">
+                            &ltimg src="./assets/images/card/item2.jpg" alt="" width="300">
+                            &ltp class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo&lt/p>
+                            &ltspan class="card-dismiss">&lti class="fas fa-times">&lt/i>&lt/span>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#ecommerce card</h3>
+                <div class="card card-vertical shadow card-ecom" >
+                    <img class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                    <h3 class="t-c">iphone 12 pro</h3>
+                    <p class="t-b t-c">₹ XX,XXX</p>
+                    <p class="p-1 t-c"></p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-vertical shadow card-ecom" >
+                            &ltimg class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                            &lth3 class="t-c">iphone 12 pro&lt/h3>
+                            &ltp class="t-b t-c">₹ XX,XXX&lt/p>
+                            &ltp class="p-1 t-c">&lt/p>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with text overlay</h3>
+                <div class="card card-horizontal">
+                    <img src="./assets/images/card/item2.jpg" alt="" width="300">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo</p>
+                    <span class="card-dismiss"><i class="fas fa-times"></i></span>
+                    <span class="text-overlay-card"><h3>Text Overlay</h3></span>
+                </div>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="card card-horizontal">
+                            &ltimg src="./assets/images/card/item2.jpg" alt="" width="300">
+                            &ltp class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo&lt/p>
+                            &ltspan class="card-dismiss">&lti class="fas fa-times">&lt/i>&lt/span>
+                            &ltspan class="text-overlay-card">&lth3>Text Overlay&lt/h3>&lt/span>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with badge</h3>
+                <div class="card-with-badge-container">
+                    <div class="card card-vertical shadow  card-ecom " >
+                        <img class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                        <h3 class="t-c">iphone 12 pro</h3>
+                        <p class="t-b t-c">₹ XX,XXX</p>
+                        <p class="p-1 t-c"></p>
+                        <p><span class="badge badge-ecom badge-ecom-new">NEW</span></p>
+                    </div>
+                    <div class="card card-vertical shadow  card-ecom " >
+                        <img class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                        <h3 class="t-c">iphone 12 pro</h3>
+                        <p class="t-b t-c">₹ XX,XXX</p>
+                        <p class="p-1 t-c"></p>
+                        <p><span class="badge badge-ecom badge-ecom-out">OUT OF STOCK</span></p>
+                    </div>
+                    <div class="card card-vertical shadow  card-ecom " >
+                        <img class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                        <h3 class="t-c">iphone 12 pro</h3>
+                        <p class="t-b t-c">₹ XX,XXX</p>
+                        <p class="p-1 t-c"></p>
+                        <p><span class="badge badge-ecom badge-ecom-trend">TRENDING</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="code">
+                <pre><code>
+                    &ltdiv class="card card-vertical shadow  card-ecom " >
+                        &ltimg class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                        &lth3 class="t-c">iphone 12 pro&lt/h3>
+                        &ltp class="t-b t-c">₹ XX,XXX&lt/p>
+                        &ltp class="p-1 t-c">&lt/p>
+                        &ltp>&ltspan class="badge badge-ecom badge-ecom-new">NEW&lt/span>&lt/p>
+                    &lt/div>
+                </code></pre>
+            </div>
+
+            <!-- Card end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Image start -->
+            <div class="component-main" id="Image">
+                <br><br><br><br>
+                <h1>Image</h1>
+                <h3>#responsive image</h3>
+                <h3>small</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-s">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-s">
+                    </code></pre>
+                </div>
+                <br>
+                
+                <br>
+                <h3>medium</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-m">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-m">
+                    </code></pre>
+                </div>
+                <br>
+                
+                <br>
+                <h3>large</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-l">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-l">
+                    </code></pre>
+                </div>
+                <br>
+                
+                <br>
+                <h3>extra large</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-xl">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-xl">
+                    </code></pre>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <h3>#circular image</h3>
+                <h3>small</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-s img-circular">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-s img-circular">
+                    </code></pre>
+                </div>
+                <br>
+                
+                <br>
+                <h3>medium</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-m img-circular">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-m img-circular">
+                    </code></pre>
+                </div>
+                <br>
+        
+                <br>
+                <h3>large</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-l img-circular">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-l img-circular">
+                    </code></pre>
+                </div>
+                <br>
+                <br>
+                <h3>extra large</h3>
+                <img src="./assets/images/image/image2.jpg" alt="" class="img img-xl img-circular">
+                <div class="code">
+                    <pre><code>
+                        &ltimg src="./assets/images/image/image2.jpg" alt="" class="img img-xl img-circular">
+                    </code></pre>
+                </div>
+            </div>
+            <!-- Image end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Input start -->
+            <div class="component-main" id="Input">
+                <br><br><br><br>
+                <h1>Input</h1>
+                <br>
+                <h3>#textbox</h3>
+                <input type="text" class="txt-input txt-input-1" placeholder="First name"/>
+                <input type="text" class="txt-input txt-input-2" placeholder="Last name"/>
+            </div>
+            <div class="code">
+                <pre><code>
+                &ltinput type="text" class="txt-input txt-input-1" placeholder="First name"/>
+                &ltinput type="text" class="txt-input txt-input-2" placeholder="Last name"/>
+                </code></pre>
+            </div>
+            <!-- Input end -->
+            <br>
+            <hr>
+            <br>
+            <!-- List start -->
+            <div class="component-main" id="List">
+                <br><br><br><br>
+                <h1>List</h1>
+                <br>
+                <h3>#spaced list</h3>
+                <ul class="list-container">
+                    <li class="list-spaced">This is a spaced list item 1</li>
+                    <li class="list-spaced">This is a spaced list item 2</li>
+                    <li class="list-spaced">This is a spaced list item 3</li>
+                    <li class="list-spaced">This is a spaced list item 4</li>
+                </ul>
+                <br>
+                <div class="code">
+                    <pre><code>
+                        &ltul class="list-container">
+                            &ltli class="list-spaced">This is a spaced list item 1&lt/li>
+                            &ltli class="list-spaced">This is a spaced list item 2&lt/li>
+                            &ltli class="list-spaced">This is a spaced list item 3&lt/li>
+                            &ltli class="list-spaced">This is a spaced list item 4&lt/li>
+                        &lt/ul>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#stacked list</h3>
+                <br>
+                <ul class="list-container">
+                    <li class="list-stacked">This is a stacked list item 1</li>
+                    <li class="list-stacked">This is a stacked list item 2</li>
+                    <li class="list-stacked">This is a stacked list item 3</li>
+                    <li class="list-stacked">This is a stacked list item 4</li>
+                </ul>
+            </div>
+            <br>
+            <div class="code">
+                <pre><code>
+                    &ltul class="list-container">
+                        &ltli class="list-stacked">This is a stacked list item 1&lt/li>
+                        &ltli class="list-stacked">This is a stacked list item 2&lt/li>
+                        &ltli class="list-stacked">This is a stacked list item 3&lt/li>
+                        &ltli class="list-stacked">This is a stacked list item 4&lt/li>
+                    &lt/ul>
+                </code></pre>
+            </div>
+            <!-- Input end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Navigation start -->
+            <div class="component-main" id="Navigation">
+                <br><br><br><br>
+                <h1>Navigation</h1>
+                <br>
+                <h3>#social media navigation</h3>
+                <nav class="navbar-social">
+                    <section class="nav-items"><h1><a href="#Navigation"><i class="fas fa-store-alt"></i></a></h1></section>
+                    <section class="nav-items"><h1><a href="#Navigation"><i class="fas fa-search"></i></a></h1></section>
+                    <section class="nav-items"><h1><a href="#Navigation"><i class="fab fa-youtube"></i></a></h1></section>
+                    <section class="nav-items"><h1><a href="#Navigation"><i class="far fa-heart"></i></a></h1></section>
+                    <section class="nav-items"><h1><a href="#Navigation"><i class="fas fa-user-circle"></i></a></h1></section>
+                </nav>
+                <br>
+                <div class="code">
+                    <pre><code>
+                        &ltnav class="navbar-social">
+                            &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fas fa-store-alt">&lt/i>&lt/a>&lt/h1>&lt/section>
+                            &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fas fa-search">&lt/i>&lt/a>&lt/h1>&lt/section>
+                            &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fab fa-youtube">&lt/i>&lt/a>&lt/h1>&lt/section>
+                            &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="far fa-heart">&lt/i>&lt/a>&lt/h1>&lt/section>
+                            &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fas fa-user-circle">&lt/i>&lt/a>&lt/h1>&lt/section>
+                        &lt/nav>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#ecommerce navigation</h3>
+                <nav class="navbar-ecommerce">
+                    <section class="nav-items">
+                        <h1><a href="#Navigation">e-commerce</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-map-marker-alt"></i>Location</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><input type="text" class="txt-input txt-input-1" placeholder="Search whatever you want"><i class="fas fa-search"></i></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-user-circle"></i>Account</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="far fa-heart"></i>Wishlist</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-cart-plus"></i>Cart</a></h1>
+                    </section>
+                </nav>
+            </div>
+            <div class="code">
+                <pre><code>
+                    &ltnav class="navbar-ecommerce">
+                        &ltsection class="nav-items">
+                            &lth1>&lta href="#Navigation">e-commerce&lt/a>&lt/h1>
+                        &lt/section>
+                        &ltsection class="nav-items">
+                            &lth1>&lta href="#Navigation">&lti class="fas fa-map-marker-alt">&lt/i>Location&lt/a>&lt/h1>
+                        &lt/section>
+                        &ltsection class="nav-items">
+                            &lth1>&ltinput type="text" class="txt-input txt-input-1" placeholder="Search whatever you want">&lti class="fas fa-search">&lt/i>&lt/h1>
+                        &lt/section>
+                        &ltsection class="nav-items">
+                            &lth1>&lta href="#Navigation">&lti class="fas fa-user-circle">&lt/i>Account&lt/a>&lt/h1>
+                        &lt/section>
+                        &ltection class="nav-items">
+                            &lth1>&lta href="#Navigation">&lti class="far fa-heart">&lt/i>Wishlist&lt/a>&lt/h1>
+                        &lt/section>
+                        &ltsection class="nav-items">
+                            &lth1>&lta href="#Navigation">&lti class="fas fa-cart-plus">&lt/i>Cart&lt/a>&lt/h1>
+                        &lt/section>
+                    </nav>
+                </code></pre>
+            </div>
+            <!-- Navigation end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Grid start -->
+            <div class="component-main" id="Grid">
+                <br><br><br><br>
+                <h1>Grid</h1>
+                <br>
+                <h3>#simplified grid with 2 items</h3>
+                <div class="grid-container grid-container-1">
+                    <div class="grid-item">Grid Item 1</div>
+                    <div class="grid-item">Grid Item 2</div>
+                </div>
+                <br>
+                <div class="code">
+                    <pre><code>
+                        &ltdiv class="grid-container grid-container-1">
+                            &ltdiv class="grid-item">Grid Item 1&lt/div>
+                            &ltdiv class="grid-item">Grid Item 2&lt/div>
+                        &lt/div>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#simplified grid with 3 items</h3>
+                <div class="grid-container grid-container-2">
+                    <div class="grid-item">Grid Item 1</div>
+                    <div class="grid-item">Grid Item 2</div>
+                    <div class="grid-item">Grid Item 3</div>
+                </div>
+            </div>
+            <div class="code">
+                <pre><code>
+                    &ltdiv class="grid-container grid-container-2">
+                        &ltdiv class="grid-item">Grid Item 1&lt/div>
+                        &ltdiv class="grid-item">Grid Item 2&lt/div>
+                        &ltdiv class="grid-item">Grid Item 3&lt/div>
+                    &lt/div>
+                </code></pre>
+            </div>
+            <!-- Grid end -->
+            <br><hr><br>
+            <!-- Toast start -->
+            <div class="component-main" id="Toast">
+                <br><br><br><br>
+                <h1>Toast</h1>
+                <h1>Coming soon...</h1>
+            </div>
+            <div class="code">code</div>
+            <!-- Toast end -->
+            <br>
+            <hr>
+            <br>
+            <!-- Modal start -->
+            <div class="component-main" id="Modal">
+                <br><br><br><br>
+                <h1>Modal</h1>
+                <h1>Coming soon...</h1>
+            </div>
+            <div class="component-main">content</div>
+            <!-- Modal end -->
+            <footer class="footer t-c">
+                <h1> made with <span class="heart">❤</span> in India</h1>
+                <div>
+                    <h2>developed by <a href="https://rajmishra.netlify.app/" target="blank"><span class="footer-plugins">Raj Mishra</span></a>
+                    <a class="github" href="https://github.com/rajmishra7"><i class="fab fa-github "></i></a>
+                    <a class="linkedIn" href="https://www.linkedin.com/in/raj-mishra-86615b15a/"><i class="fab fa-linkedin "></i></a>
+                    <a class="twitter" href="https://twitter.com/RajMishra2519"><i class="fab fa-twitter-square "></i></a>
+                    </h2>
+                </div>
+            </footer>
+        </main>
+        
+    </div>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+@import url('/components/colors.css');
+
+.grid-container{
+    width: 70%;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-column-gap: 1rem;
+    background-color: var(--gray-three);
+    
+}
+
+.grid-container-1{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container-2{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 1rem 5rem;
+    margin: auto;
+}
+

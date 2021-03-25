@@ -1,0 +1,27 @@
+.img{
+    margin: 2rem 0rem;
+}
+
+.img-circular{
+    border-radius: 50%;
+}
+
+.img-s{
+    width: 100px;
+    height: auto;
+}
+
+.img-m{
+    width: 200px;
+    height: auto;
+}
+
+.img-l{
+    width: 300px;
+    height: auto;
+}
+
+.img-xl{
+    width: 400px;
+    height: auto;
+}
