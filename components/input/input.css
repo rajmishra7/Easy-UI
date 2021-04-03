@@ -3,14 +3,15 @@
 .txt-input {
     padding: 0.5rem 0.75rem;
     margin: 1rem 1rem 1rem 0;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     font-size: 1.2rem;
     border: 0;
 }
 
 .txt-input-1{
-    width: auto;
+    background-color: var(--offwhite-two);
+    border-bottom: 3px solid var(--offwhite-three);
 }
 
 .txt-input-2{
