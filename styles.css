@@ -47,7 +47,7 @@ body{
     display: grid;
     position: fixed;
     z-index: 100;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6,1fr);
     top: 0px;
     left: 0px;
 }
@@ -56,16 +56,17 @@ body{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     grid-row: 1/4;
-    height: 100vh;
+    height: 91vh;
     position: sticky;
-    padding: 0.5rem 0rem;
+    padding: 2rem 0rem;
     display: grid;
     grid-template-columns: 1fr;
+    overflow-y: scroll hidden;
 }
 
 .main{
     grid-row: 1;
-    height: 100vh;
+    height: 91vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
     background-color: var(--secondary-color);
@@ -100,24 +101,21 @@ body{
     display: inline-block;
 }
 
-.logo h1:hover{
-    border-bottom: 1px solid var(--secondary-color);
-}
 
 .component-nav{
-    width: 100%;
-    margin:0 auto;
-    padding: 0.3rem 4rem 0.3rem 4rem;
+    font-size: 18px;
+    margin: 0.2rem 0rem;
+    padding: 0.5rem 0rem;
+    text-align: center;
 }
 
-.component-nav a{
-    font-size: large;
-}
 
 .component-nav:hover{
-    background-color: var(--gray-four);
-    font-size:large;
-    cursor: pointer;
+    color: var(--info-color);
+}
+
+.active{
+    color: var(--info-color);
 }
 
 .code{
@@ -175,21 +173,37 @@ body{
     color: var(--secondary-color);
 }
 
-.guide{
-    margin: auto;
-    
-    font-size: medium;
-    font-weight: 100;
-    padding: 0.7rem;
-}
-
-.guide:hover{
-    
-    background-color: var(--gray-three);
-    border-radius: 5px;
-}
 
 .footer-plugins{
     color: var(--logo-color);
 }
 
+.intro{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    background-color: var(--offwhite-three);
+}
+
+.intro-link{
+    padding: 2rem;
+    padding-left: 0%;
+    font-size: 2rem;
+}
+
+.css-link{
+    padding: 2rem 2rem 2rem 0rem;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: var(--info-color);
+    margin-bottom: 3rem;
+}
+
+.css-link p{
+    text-align: center;
+}
