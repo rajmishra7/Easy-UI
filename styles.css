@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+@import url('./components/alert/alert.css');
+@import url('./components/avatar/avatar.css');
+@import url('./components/button/button.css');
+@import url('/components/colors.css');
+@import url('./components/image/image.css');
+@import url('./components/input/input.css');
+@import url('./components/list/list.css');
+@import url('./components/navigation/navigation.css');
+@import url('./components/grid/grid.css');
+@import url('./components/card/card.css');
+@import url('./components/utilities.css');
+@import url('./components/badge/badge.css');
+@import url('./components/modal/modal.css');
+@import url('/components/toast/toast.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+* a{
+    color: var(--secondary-color);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-body{
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 60px;
+}
+
+.header{
+    background-color: var(--gray-three);
+    width: 100%;
+    padding: 0.5rem;
+    display: grid;
+    position: fixed;
+    z-index: 100;
+    grid-template-columns: repeat(6,1fr);
+    top: 0px;
+    left: 0px;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    grid-row: 1/4;
+    height: 91vh;
+    position: sticky;
+    padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-y: scroll hidden;
+}
+
+.main{
+    grid-row: 1;
+    height: 91vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    display: relative;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+    grid-row: 3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 1rem;
+    bottom: 0;
+}
+
+.logo{
+    color: var(--secondary-color);
+    display: block;
+    font-size:large;
+    margin:0rem 2rem 0.5rem 2rem;
+}
+
+.logo span{
+    color: var(--logo-color);
+}
+
+.logo h1{
+    display: inline-block;
+}
+
+
+.component-nav{
+    font-size: 18px;
+    margin: 0.2rem 0rem;
+    padding: 0.5rem 0rem;
+    text-align: center;
+}
+
+
+.component-nav:hover{
+    color: var(--info-color);
+}
+
+.active{
+    color: var(--info-color);
+}
+
+.code{
+    margin: 2rem 0rem 1rem 0rem;
+    width: 100%;
+    font-size: large;
+    overflow-x: hidden;
+    height: max-content;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    border-radius: 0.5rem;
+}
+
+
+.heart{
+    color: var(--red-one);
+}
+.component-main{
+    position: sticky;
+    top: 2rem;
+    padding-bottom: 20px;
+    
+}
+
+.component-main > h1{
+    margin-bottom: 1rem;
+}
+
+.component-main > h3{
+    margin-bottom: 2rem;
+}
+
+.github{
+    margin:auto;
+    color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.linkedIn{
+    margin:auto;
+    color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.twitter{
+    margin:auto;
+    color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.version{
+    margin: auto;
+    font-size: medium;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+
+
+.footer-plugins{
+    color: var(--logo-color);
+}
+
+.intro{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    background-color: var(--offwhite-three);
+}
+
+.intro-link{
+    padding: 2rem;
+    padding-left: 0%;
+    font-size: 2rem;
+}
+
+.css-link{
+    padding: 2rem 2rem 2rem 0rem;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: var(--info-color);
+    margin-bottom: 3rem;
+}
+
+.css-link p{
+    text-align: center;
+}

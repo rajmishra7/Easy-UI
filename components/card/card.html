@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy UI</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+</head>
+
+<body>
+    <header class="header">
+        
+        <div class="logo">
+            <a href="/index.html">
+                <h1>Easy <span>UI</span></h1>
+            </a>
+        </div>
+        <div class="version">
+            <h3>v 1.O</h3>
+        </div>
+        <div class="github">
+            <a href="https://github.com/rajmishra7/Easy-UI"><h3><i class="fab fa-github"></i></h3></a>
+        </div>
+    </header>
+    <div class="container-body">
+        
+        <aside class="nav">
+
+            <a class="component-nav" href="/components/alert/alert.html">Alert</a>
+            <a class="component-nav" href="/components/avatar/avatar.html">Avatar</a>
+            <a class="component-nav" href="/components/badge/badge.html">Badge</a>
+            <a class="component-nav" href="/components/button/button.html">Button</a>
+            <a class="component-nav active" href="/components/card/card.html">Card</a>
+            <a class="component-nav" href="/components/grid/grid.html">Grid</a>
+            <a class="component-nav" href="/components/image/image.html">Image</a>
+            <a class="component-nav" href="/components/input/input.html">Input</a>
+            <a class="component-nav" href="/components/list/list.html">List</a>
+            <a class="component-nav" href="/components/modal/modal.html">Modal</a>
+            <a class="component-nav" href="/components/navigation/navigation.html">Navigation</a>
+            <a class="component-nav" href="/components/toast/toast.html">Toast</a>
+
+        </aside>
+
+        <main class="main">
+            <!-- Card start -->
+
+            <div class="component-main" id="Card">
+                <h1>Card</h1>
+                <h3>#text only card</h3>
+                <div class="card card-txt">
+                    <h3 >Text only card</h3>
+                    <h5><i class="far fa-clock"></i> 2 days ago</h5>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi corrupti optio culpa.</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-txt">
+                    &lth3 >Text only card&lt/h3>
+                    &lth5>&lti class="far fa-clock">&lt/i> 2 days ago&lt/h5>
+                    &ltp class="p-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi 
+                        corrupti optio culpa.
+                    &lt/p>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <h3>#vertical card</h3>
+                <div class="card card-vertical">
+                    <img src="/assets/images/card/item2.jpg" alt="" width="196">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo impedit repellat vitae, veritatis dolorum eius rerum sapiente tempora.</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-vertical">
+                    &ltimg src="./assets/images/card/item2.jpg" alt="" width="196">
+                    &ltp class="p-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ipsam dolore quos doloribus sed nostrum qui quasi ratione 
+                        repudiandae nam dolorem illo impedit repellat vitae, veritatis 
+                        dolorum eius rerum sapiente tempora.
+                    &lt/p>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#horizontal card</h3>
+                <div class="card card-horizontal">
+                    <img src="/assets/images/card/item2.jpg" alt="" width="300">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-horizontal">
+                    &ltimg src="./assets/images/card/item2.jpg" alt="" width="300">
+                    &ltp class="p-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ipsam dolore quos doloribus sed nostrum qui quasi ratione 
+                        repudiandae nam dolorem illo
+                    &lt/p>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with shadow</h3>
+                <div class="card card-txt shadow">
+                    <h3 >Card with Shadow</h3>
+                    <h5><i class="far fa-clock"></i> 2 days ago</h5>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolores dolore vitae praesentium maxime quo accusantium eligendi corrupti optio culpa.</p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-txt shadow">
+                    &lth3 >Card with Shadow&lt/h3>
+                    &lth5>&lti class="far fa-clock">&lt/i> 2 days ago&lt/h5>
+                    &ltp class="p-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Consequuntur dolores dolore vitae praesentium maxime quo 
+                        accusantium eligendi corrupti optio culpa.
+                    &lt/p>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with dismiss</h3>
+                <div class="card card-horizontal">
+                    <img src="/assets/images/card/item2.jpg" alt="" width="300">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo</p>
+                    <span class="card-dismiss"><i class="fas fa-times"></i></span>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-horizontal">
+                    &ltimg src="./assets/images/card/item2.jpg" alt="" width="300">
+                    &ltp class="p-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ipsam dolore quos doloribus sed nostrum qui quasi ratione 
+                        repudiandae nam dolorem illo
+                    &lt/p>
+                    &ltspan class="card-dismiss">&lti class="fas fa-times">&lt/i>&lt/span>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#ecommerce card</h3>
+                <div class="card card-vertical shadow card-ecom" >
+                    <img class="br-t-10" src="/assets/images/card/item.jpg" alt="" width="196">
+                    <h3 class="t-c">iphone 12 pro</h3>
+                    <p class="t-b t-c">₹ XX,XXX</p>
+                    <p class="p-1 t-c"></p>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-vertical shadow card-ecom" >
+                    &ltimg class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                    &lth3 class="t-c">iphone 12 pro&lt/h3>
+                    &ltp class="t-b t-c">₹ XX,XXX&lt/p>
+                    &ltp class="p-1 t-c">&lt/p>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with text overlay</h3>
+                <div class="card card-horizontal">
+                    <img src="/assets/images/card/item2.jpg" alt="" width="300">
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolore quos doloribus sed nostrum qui quasi ratione repudiandae nam dolorem illo</p>
+                    <span class="card-dismiss"><i class="fas fa-times"></i></span>
+                    <span class="text-overlay-card"><h3>Text Overlay</h3></span>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-horizontal">
+                    &ltimg src="./assets/images/card/item2.jpg" alt="" width="300">
+                    &ltp class="p-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ipsam dolore quos doloribus sed nostrum qui quasi ratione 
+                        repudiandae nam dolorem illo
+                    &lt/p>
+                    &ltspan class="card-dismiss">&lti class="fas fa-times">&lt/i>&lt/span>
+                    &ltspan class="text-overlay-card">&lth3>Text Overlay&lt/h3>&lt/span>
+                &lt/div>
+                    </code></pre>
+                </div>
+                <br><br>
+                <h3>#card with badge</h3>
+                <div class="card-with-badge-container">
+                    <div class="card card-vertical shadow  card-ecom " >
+                        <img class="br-t-10" src="/assets/images/card/item.jpg" alt="" width="196">
+                        <h3 class="t-c">iphone 12 pro</h3>
+                        <p class="t-b t-c">₹ XX,XXX</p>
+                        <p class="p-1 t-c"></p>
+                        <p><span class="badge badge-ecom badge-ecom-new">NEW</span></p>
+                    </div>
+                    <div class="card card-vertical shadow  card-ecom " >
+                        <img class="br-t-10" src="/assets/images/card/item.jpg" alt="" width="196">
+                        <h3 class="t-c">iphone 12 pro</h3>
+                        <p class="t-b t-c">₹ XX,XXX</p>
+                        <p class="p-1 t-c"></p>
+                        <p><span class="badge badge-ecom badge-ecom-out">OUT OF STOCK</span></p>
+                    </div>
+                    <div class="card card-vertical shadow  card-ecom " >
+                        <img class="br-t-10" src="/assets/images/card/item.jpg" alt="" width="196">
+                        <h3 class="t-c">iphone 12 pro</h3>
+                        <p class="t-b t-c">₹ XX,XXX</p>
+                        <p class="p-1 t-c"></p>
+                        <p><span class="badge badge-ecom badge-ecom-trend">TRENDING</span></p>
+                    </div>
+                </div>
+                <div class="code">
+                    <pre><code>
+                &ltdiv class="card card-vertical shadow  card-ecom " >
+                    &ltimg class="br-t-10" src="./assets/images/card/item.jpg" alt="" width="196">
+                    &lth3 class="t-c">iphone 12 pro&lt/h3>
+                    &ltp class="t-b t-c">₹ XX,XXX&lt/p>
+                    &ltp class="p-1 t-c">&lt/p>
+                    &ltp>&ltspan class="badge badge-ecom badge-ecom-new">NEW&lt/span>&lt/p>
+                &lt/div>
+                    </code></pre>
+                </div>
+    
+                <!-- Card end -->
+            </div>
+            
+        </main>
+        
+    </div>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
+</html>

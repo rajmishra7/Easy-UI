@@ -1,0 +1,79 @@
+@import url('/components/colors.css');
+
+.card{
+    width: 250px;
+    height: max-content;
+    position: relative;
+    margin: 1rem 0rem;
+    background-color: var(--offwhite-two);
+    color: var(--gray-two);
+    border-radius: 5px;
+}
+
+.card-txt{
+    width: 250px;
+    padding: 1rem;
+    border: 2px solid var(--gray-one);
+}
+
+.card-vertical{
+    border: 2px solid var(--gray-one);
+    width: 200px;
+}
+
+.card-horizontal{
+    width: 500px;
+    height: max-content;
+    border: 2px solid var(--gray-one);
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-dismiss{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.card-dismiss:hover{
+    color: var(--red-one);
+    cursor: pointer;
+}
+
+.card-ecom{
+    width: max-content;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    border: 0;
+    position: relative;
+    color: var(--secondary-color);
+}
+
+.card-outofstock{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--danger-color);
+}
+
+.text-overlay-card{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--secondary-color);
+}
+
+.card-with-badge-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card .badge{
+    top: 8px;
+    left: 0;
+}

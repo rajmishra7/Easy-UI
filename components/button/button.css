@@ -1,0 +1,108 @@
+@import url('/components/colors.css');
+
+.btn{
+    padding: 1rem 2rem;
+    margin: 20px 0.7rem 20px 0;
+    border-radius: 3px;
+    border: 0;
+    box-shadow:2px 1px gray;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding:0.8rem 1.6rem;
+    border: 0.2rem solid var(--gray-two);
+}
+
+.btn-success{
+    background-color: var(--success-color2);
+    color: var(--secondary-color);
+}
+
+.btn-warning{
+    background-color: var(--warning-color2);
+    color: var(--secondary-color);
+}
+
+.btn-info{
+    background-color: var(--info-color2);
+    color: var(--secondary-color);
+}
+
+.btn-danger{
+    background-color: var(--danger-color);
+    color: var(--secondary-color);
+}
+
+.btn-disabled{
+    background-color: var(--disabled-color);
+    color: var(--secondary-color);
+}
+
+.btn-float{
+    border-radius: 50%;
+    height: 60px;
+    margin:20px 15px 20px 0px;
+    width: 60px;
+    text-align: center;
+    font-size: 25px;
+    border: 0;
+    box-shadow:1px 2px gray;
+    cursor: pointer;
+}
+
+.btn-float-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.btn-float-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-icon{
+    height: 60px;
+    margin:20px 15px px 0px;
+    width: 60px;
+    text-align: center;
+    font-size: 25px;
+    border: 0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.btn-icon:hover{
+    color: var(--red-one);
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 0px;
+}
+
+.btn-link{
+    border: 0px;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.btn-link a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: x-large;
+}
+
+.btn-link a:hover{
+    color: var(--red-one);
+}

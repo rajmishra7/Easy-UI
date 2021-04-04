@@ -1,0 +1,22 @@
+@import url('/components/colors.css');
+
+.list-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 40%;
+    text-decoration: none;
+}
+
+.list-spaced{
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: var(--offwhite-four);
+    border: 0;
+}
+
+.list-stacked{
+    padding: 1rem;
+    background-color: var(--offwhite-four);
+    border-bottom: 1px solid var(--primary-color);
+}

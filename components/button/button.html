@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy UI</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+</head>
+
+<body>
+    <header class="header">
+        
+        <div class="logo">
+            <a href="/index.html">
+                <h1>Easy <span>UI</span></h1>
+            </a>
+        </div>
+        <div class="version">
+            <h3>v 1.O</h3>
+        </div>
+        <div class="github">
+            <a href="https://github.com/rajmishra7/Easy-UI"><h3><i class="fab fa-github"></i></h3></a>
+        </div>
+    </header>
+    <div class="container-body">
+        
+        <aside class="nav">
+
+            <a class="component-nav" href="/components/alert/alert.html">Alert</a>
+            <a class="component-nav" href="/components/avatar/avatar.html">Avatar</a>
+            <a class="component-nav" href="/components/badge/badge.html">Badge</a>
+            <a class="component-nav active" href="/components/button/button.html">Button</a>
+            <a class="component-nav" href="/components/card/card.html">Card</a>
+            <a class="component-nav" href="/components/grid/grid.html">Grid</a>
+            <a class="component-nav" href="/components/image/image.html">Image</a>
+            <a class="component-nav" href="/components/input/input.html">Input</a>
+            <a class="component-nav" href="/components/list/list.html">List</a>
+            <a class="component-nav" href="/components/modal/modal.html">Modal</a>
+            <a class="component-nav" href="/components/navigation/navigation.html">Navigation</a>
+            <a class="component-nav" href="/components/toast/toast.html">Toast</a>
+
+        </aside>
+
+        <main class="main">
+            
+            <!-- Button start -->
+            <div class="component-main" id="Button">
+                <h1>Button</h1>
+                <h3>#primary</h3>
+                <button class="btn btn-primary">PRIMARY</button>
+                <br>
+                <div class="code">
+                    <pre>
+                        <code>
+    &ltbutton class="btn btn-primary">PRIMARY&lt/button>
+                        </code>
+                    </pre>
+                </div>
+                <br>
+                <h3>#secondary</h3>
+                <button class="btn btn-secondary">SECONDARY</button>
+                <br>
+                <div class="code">
+                    <pre><code>
+    &ltbutton class="btn btn-secondary">SECONDARY&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#variants</h3>
+                <button class="btn btn-success">SUCCESS</button>
+                <button class="btn btn-warning">WARNING</button>
+                <button class="btn btn-info">INFO</button>
+                <button class="btn btn-danger">DANGER</button>
+                <button class="btn btn-disabled" disabled>DISABLED</button>
+                <br>
+                <div class="code">
+                    <pre><code>
+    &ltbutton class="btn btn-success">SUCCESS&lt/button>
+    &ltbutton class="btn btn-warning">WARNING&lt/button>
+    &ltbutton class="btn btn-info">INFO&lt/button>
+    &ltbutton class="btn btn-danger">DANGER&lt/button>
+    &ltbutton class="btn btn-disabled" disabled>DISABLED&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#floating button ( primary )</h3>
+                <button class="btn-float btn-float-primary"><i class="fas fa-angle-up"></i></button>
+                <button class="btn-float btn-float-primary"><i class="fas fa-angle-down"></i></button>
+                <button class="btn-float btn-float-primary"><i class="fas fa-plus"></i></button>
+                <button class="btn-float btn-float-primary"><i class="fas fa-pencil-alt"></i></button>
+                <br>
+                <div class="code">
+                    <pre><code>
+    &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-angle-up">&lt/i>&lt/button>
+    &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-angle-down">&lt/i>&lt/button>
+    &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-plus">&lt/i>&lt/button>
+    &ltbutton class="btn-float btn-float-primary">&lti class="fas fa-pencil-alt">&lt/i>&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#floating button ( secondary )</h3>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-angle-up"></i></button>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-angle-down"></i></button>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-plus"></i></button>
+                <button class="btn-float btn-float-secondary"><i class="fas fa-pencil-alt"></i></button>
+                <br>
+                <div class="code">
+                    <pre><code>
+    &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-angle-up">&lt/i>&lt/button>
+    &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-angle-down">&lt/i>&lt/button>
+    &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-plus">&lt/i>&lt/button>
+    &ltbutton class="btn-float btn-float-secondary">&lti class="fas fa-pencil-alt">&lt/i>&lt/button>
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#icon button</h3>
+                <div class="button-container">
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-cart-plus"></i></button>
+                        <h3>Add to Cart</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-search"></i></button>
+                        <h3>Search</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="far fa-heart"></i></button>
+                        <h3>Wishlist</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-trash"></i></button>
+                        <h3>Delete</h3>
+                    </div>
+                    <div>
+                        <button class="btn-icon"><i class="fas fa-bars"></i></button>
+                        <h3>Options</h3>
+                    </div>
+                </div>
+                <br>
+                <div class="code">
+                    <pre><code>
+    &ltdiv class="button-container">
+        &ltdiv>&ltbutton class="btn-icon">&lti class="fas fa-cart-plus">&lt/i>&lt/button>&lth3>Add to Cart&lt/h3>&lt/div>
+        &ltdiv>&ltbutton class="btn-icon">&lti class="fas fa-search">&lt/i>&lt/button>&lth3>Search&lt/h3>&lt/div>
+        &ltdiv>&ltbutton class="btn-icon">&lti class="far fa-heart">&lt/i>&lt/button>&lth3>Wishlist&lt/h3>&lt/div>
+        &ltdiv>&ltbutton class="btn-icon">&lti class="fas fa-trash">&lt/i>&lt/button>&lth3>Delete&lt/h3>&lt/div>
+        &ltdiv>&ltbutton class="btn-icon">&lti class="fas fa-bars">&lt/i>&lt/button>&lth3>Options&lt/h3>&lt/div>
+    &lt/div>&lt                    
+                    </code></pre>
+                </div>
+                <br>
+                <h3>#link button</h3>
+                <div class="button-container">
+                    <div><button class="btn-link"><a href="">HOME</a></button></div>
+                    <div><button class="btn-link"><a href="">ABOUT</a></button></div>
+                    <div><button class="btn-link"><a href="">CONTACT</a></button></div>
+                    <div><button class="btn-link"><a href="">LINK#1</a></button></div>
+                    <div><button class="btn-link"><a href="">LINK#2</a></button></div>
+                </div>
+                <div class="code">
+                    <pre>
+                        <code>
+    &ltdiv class="button-container">
+        &ltdiv>&ltbutton class="btn-link">&lta href="">HOME&lt/a>&lt/button>&lt/div>
+        &ltdiv>&ltbutton class="btn-link">&lta href="">ABOUT&lt/a>&lt/button>&lt/div>
+        &ltdiv>&ltbutton class="btn-link">&lta href="">CONTACT&lt/a>&lt/button>&lt/div>
+        &ltdiv>&ltbutton class="btn-link">&lta href="">LINK#1&lt/a>&lt/button>&lt/div>
+        &ltdiv>&ltbutton class="btn-link">&lta href="">LINK#2&lt/a>&lt/button>&lt/div>
+    &lt/div>&lt                    </code>
+                    </pre>
+                </div>
+    
+    
+                <!-- Button end -->
+               
+            </div>
+            
+        </main>
+        
+    </div>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
+</html>

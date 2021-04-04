@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy UI</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css">
+</head>
+
+<body>
+    <header class="header">
+        
+        <div class="logo">
+            <a href="/index.html">
+                <h1>Easy <span>UI</span></h1>
+            </a>
+        </div>
+        <div class="version">
+            <h3>v 1.O</h3>
+        </div>
+        <div class="github">
+            <a href="https://github.com/rajmishra7/Easy-UI"><h3><i class="fab fa-github"></i></h3></a>
+        </div>
+    </header>
+    <div class="container-body">
+
+        <aside class="nav">
+
+            <a class="component-nav" href="/components/alert/alert.html">Alert</a>
+            <a class="component-nav" href="/components/avatar/avatar.html">Avatar</a>
+            <a class="component-nav" href="/components/badge/badge.html">Badge</a>
+            <a class="component-nav" href="/components/button/button.html">Button</a>
+            <a class="component-nav" href="/components/card/card.html">Card</a>
+            <a class="component-nav" href="/components/grid/grid.html">Grid</a>
+            <a class="component-nav" href="/components/image/image.html">Image</a>
+            <a class="component-nav" href="/components/input/input.html">Input</a>
+            <a class="component-nav" href="/components/list/list.html">List</a>
+            <a class="component-nav" href="/components/modal/modal.html">Modal</a>
+            <a class="component-nav active" href="/components/navigation/navigation.html">Navigation</a>
+            <a class="component-nav" href="/components/toast/toast.html">Toast</a>
+
+        </aside>
+
+        <main class="main">
+            <!-- Navigation start -->
+            <div class="component-main" id="Navigation">
+                <h1>Navigation</h1>
+                <h3>#social media navigation</h3>
+                <nav class="navbar-social">
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-store-alt"></i></a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-search"></i></a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fab fa-youtube"></i></a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="far fa-heart"></i></a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a class="active" href="#Navigation"><i class="fas fa-user-circle"></i></a></h1>
+                    </section>
+                </nav>
+                <nav class="navbar-social">
+                    <section class="nav-items">
+                        <h1><a class="active" href="#Navigation">HOME</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation">EXPLORE</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation">FEED</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation">NOTIFICATIONS</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation">PROFILE</a></h1>
+                    </section>
+                </nav>
+                <div class="code">
+                    <pre><code>
+    &ltnav class="navbar-social">
+        &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fas fa-store-alt">&lt/i>&lt/a>&lt/h1>&lt/section>
+        &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fas fa-search">&lt/i>&lt/a>&lt/h1>&lt/section>
+        &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fab fa-youtube">&lt/i>&lt/a>&lt/h1>&lt/section>
+        &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="far fa-heart">&lt/i>&lt/a>&lt/h1>&lt/section>
+        &ltsection class="nav-items">&lth1>&lta href="#Navigation">&lti class="fas fa-user-circle">&lt/i>&lt/a>&lt/h1>&lt/section>
+    &lt/nav>
+                    </code></pre>
+                </div>
+                <h3>#ecommerce navigation</h3>
+                <nav class="navbar-ecommerce">
+                    <section class="nav-items">
+                        <h1><a class="active" href="#Navigation">e-commerce</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-map-marker-alt"></i>Location</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><input type="text" class="txt-input txt-input-1" placeholder="Search"><i
+                                class="fas fa-search"></i></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-user-circle"></i>Account</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="far fa-heart"></i>Wishlist</a></h1>
+                    </section>
+                    <section class="nav-items">
+                        <h1><a href="#Navigation"><i class="fas fa-cart-plus"></i>Cart</a></h1>
+                    </section>
+                </nav>
+                <div class="code">
+                    <pre><code>
+    &ltnav class="navbar-ecommerce">
+        &ltsection class="nav-items">
+            &lth1>&lta href="#Navigation">e-commerce&lt/a>&lt/h1>
+        &lt/section>
+        &ltsection class="nav-items">
+            &lth1>&lta href="#Navigation">&lti class="fas fa-map-marker-alt">&lt/i>Location&lt/a>&lt/h1>
+        &lt/section>
+        &ltsection class="nav-items">
+            &lth1>&ltinput type="text" class="txt-input txt-input-1" placeholder="Search">
+            &lti class="fas fa-search">&lt/i>&lt/h1>
+        &lt/section>
+        &ltsection class="nav-items">
+            &lth1>&lta href="#Navigation">&lti class="fas fa-user-circle">&lt/i>Account&lt/a>&lt/h1>
+        &lt/section>
+        &ltection class="nav-items">
+            &lth1>&lta href="#Navigation">&lti class="far fa-heart">&lt/i>Wishlist&lt/a>&lt/h1>
+        &lt/section>
+        &ltsection class="nav-items">
+            &lth1>&lta href="#Navigation">&lti class="fas fa-cart-plus">&lt/i>Cart&lt/a>&lt/h1>
+        &lt/section>
+    &lt/nav>
+                    </code></pre>
+                </div>
+                <!-- Navigation end -->
+            </div>
+            
+        </main>
+
+    </div>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+
+</html>
